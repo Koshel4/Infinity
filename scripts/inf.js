@@ -11,10 +11,9 @@
                 return color;
             }
             function GetSizes() {
-                window.randNumX = Math.trunc(Math.random() * ((pageWidth - 124) - 50) + 50);
+                window.randNumX = Math.trunc(Math.random() * ((pageWidth - 120) - 20) + 50);
                 window.randNumY = Math.trunc(Math.random() * (1000 - 100) + 100);
-                if (!window.isMobile) window.randSize = Math.trunc(Math.random() * (100 - 40) + 40); 
-                else window.randSize = ((Math.trunc(Math.random() * (100 - 40) + 40))/4); 
+                window.randSize = Math.trunc(Math.random() * (100 - 40) + 40); 
             }
             function ChangeColor(x) {
                 x.style.background = GetColor();
