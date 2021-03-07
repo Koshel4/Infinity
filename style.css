@@ -1,0 +1,22 @@
+body {
+    background-color: black;
+    overflow-x: hidden;
+}
+h2 {
+    font-size: larger;
+    color: white;
+    margin-bottom: 0.5em;
+}
+::-webkit-scrollbar{
+    width: 0px;
+}
+a.Top {
+    position: fixed; 
+    z-index: 9999; 
+    bottom: 0%; 
+    right: 0%;
+    font-size: x-large;  
+    color: green; 
+    padding: 10px; 
+    margin: 5px 15px 15px 5px; 
+   }
