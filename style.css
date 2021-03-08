@@ -15,8 +15,12 @@ a.Top {
     z-index: 9999; 
     bottom: 0%; 
     right: 0%;
-    font-size: x-large;  
+    font-size: xx-large;  
     color: green; 
     padding: 10px; 
     margin: 5px 15px 15px 5px; 
+    -moz-user-select: none;
+    -webkit-user-select: none; 
+    -khtml-user-select: none; 
+    user-select: none; 
    }
