@@ -2,6 +2,7 @@
             const pageHeight = document.documentElement.scrollHeight;
             let idNum = 0;
             let pixels = 180;
+            let bottomCoord = 0;
             function GetColor() {
                 var letters = '0123456789ABCDEF';
                 var color = '#';
@@ -36,4 +37,6 @@
             if (pageYOffset > pixels) {
                 pixels+=200;
                 Random(pixels);
-            }});
+            }
+	    if (pageYOffset > bottomCoord) bottomCoord = pageYOffset;
+            });
