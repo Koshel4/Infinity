@@ -7,3 +7,5 @@ If you need to go back to the top of the page, click the green arrow located on 
 Also, If you need to go back to the bottom part of the page you have alrwady reached, press another arrow on the bottom left.
 
 This website was made just for fun, so the project does not pretend to be anything serious or profesionally made. 
+
+You can try it here: https://koshel4.github.io/Infinity/
