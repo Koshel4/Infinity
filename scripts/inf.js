@@ -34,6 +34,6 @@
             }
             window.addEventListener('scroll', function() {
             if (pageYOffset > pixels) {
-                pixels+=60;
+                pixels+=200;
                 Random(pixels);
             }});
